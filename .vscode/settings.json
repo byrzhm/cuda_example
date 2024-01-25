@@ -1,0 +1,7 @@
+{
+    "clangd.fallbackFlags": [
+        "-std=c++17",
+        "--cuda-path=${env:CUDA_PATH}",
+        "-I${env:CUDA_PATH}/include"
+    ],
+}
